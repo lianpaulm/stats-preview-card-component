@@ -9,7 +9,7 @@ html {
 }
 body {
   font-size: 0.9375rem;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   /* font-family: 'Inter', sans-serif; */
   line-height: 1.6;
@@ -42,7 +42,7 @@ img {
 }
 /* stat-image */
 .stat-img {
-  background: url("./images/image-header-desktop.jpg") rgba(170, 92, 219, 0.9);
+  background: url('./images/image-header-desktop.jpg') rgba(170, 92, 219, 0.9);
   background-position: 30% 65%;
   background-size: cover;
   background-blend-mode: multiply;
@@ -60,7 +60,7 @@ img {
 }
 .main-heading,
 .value {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
   font-size: 1.40625rem;
   font-weight: 700;
@@ -113,12 +113,15 @@ p,
 }
 /* footer */
 .attribution {
-  font-size: 11px;
+  color: aliceblue;
+  font-size: 12px;
   text-align: center;
   position: absolute;
-  bottom: 0;
-  display: none;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.8;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 34%, 55%);
 }
